@@ -6,6 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta name="description" content="EnerG Solutions - Imported Gypsum supply.">
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <!-- google fonts preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- style sheets and font icons  -->
     <link rel="stylesheet" href="css/vendors.min.css"/>
     <link rel="stylesheet" href="css/icon.min.css"/>
     <link rel="stylesheet" href="css/style.css"/>
@@ -16,11 +25,14 @@
     <div class="box-layout">
         <!-- Header (same as above) -->
         <header>
+            <!-- start navigation -->
             <nav class="navbar navbar-expand-lg header-light bg-white disable-fixed">
                 <div class="container-fluid">
                     <div class="col-auto col-xl-3 col-lg-2 me-lg-0 me-auto">
                         <a class="navbar-brand" href="index.html">
-                            <img src="images/demo-corporate-logo-black.png" alt="EnerG Solutions Logo" class="default-logo">
+                            <img src="images/energ_logo.png" data-at2x="images/energ_logo@2x.png" alt="" class="default-logo">
+                            <img src="images/energ_logo.png" data-at2x="images/energ_logo@2x.png" alt="" class="alt-logo">
+                            <img src="images/energ_logo.png" data-at2x="images/energ_logo@2x.png" alt="" class="mobile-logo">
                         </a>
                     </div>
                     <div class="col-auto col-xl-6 col-lg-8 menu-order position-static">
@@ -33,27 +45,44 @@
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                                <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
                                 <li class="nav-item dropdown dropdown-with-icon-style02">
-                                    <a href="corporate-services.html" class="nav-link">Services</a>
+                                    <a href="#" class="nav-link">Products</a>
                                     <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a href="service-details-imported-gypsum.html">Imported Gypsum</a></li>
-                                        <li><a href="service-details-calcite-powder.html">Calcite Powder</a></li>
-                                        <li><a href="service-details-soap-stone.html">Soap Stone (Talc) Powder</a></li>
-                                        <li><a href="service-details-agri-combustible-waste.html">Agri Combustible Waste</a></li>
-                                        <li><a href="service-details-high-gcv-imported-coal.html">High GCV Imported Coal</a></li>
+                                        <li><a href="service-details-biodiesel-b20.html"><i class="line-icon-Medal-2"></i>Biodiesel - B20</a></li>
+                                        <li><a href="service-details-biodiesel-b100.html"><i class="line-icon-Archery-2"></i>Biodiesel - B100</a></li>
+                                        <li><a href="service-details-fuel-oil-mv2.html"><i class="line-icon-Financial"></i>Fuel Oil MV2</a></li>
+                                        <li><a href="service-details-imported-gypsum.html"><i class="line-icon-Cube-Molecule"></i>Imported Gypsum</a></li>
+                                        <li><a href="service-details-calcite-powder.html"><i class="line-icon-Chemical-2"></i>Calcite Powder</a></li>
+                                        <li><a href="service-details-soap-stone.html"><i class="line-icon-Chemical-3"></i>Soap Stone Powder</a></li>
+                                        <li><a href="service-details-agri-combustible-waste.html"><i class="line-icon-Leafs"></i>Agri Combustible Waste</a></li>
+                                        <li><a href="service-details-high-gcv-imported-coal.html"><i class="line-icon-fire"></i>High GCV Imported Coal</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a href="customer-stories.html" class="nav-link">Customer Stories</a></li>
-                                <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
-                                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
                                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-auto col-xl-3 col-lg-2 text-end md-pe-0">
                         <div class="header-icon">
+                            <div class="header-search-icon icon">
+                                <a href="#" class="search-form-icon header-search-form"><i class="feather icon-feather-search"></i></a>
+                                <!-- start search input -->
+                                <div class="search-form-wrapper">
+                                    <button title="Close" type="button" class="search-close">×</button>
+                                    <form id="search-form" role="search" method="get" class="search-form text-left" action="search-result.html">
+                                        <div class="search-form-box">
+                                            <h2 class="text-dark-gray text-center fw-600 mb-4 ls-minus-1px">What are you looking for?</h2>
+                                            <input class="search-input" id="search-form-input5e219ef164995" placeholder="Enter your keywords..." name="s" value="" type="text" autocomplete="off">
+                                            <button type="submit" class="search-button">
+                                                <i class="feather icon-feather-search" aria-hidden="true"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- end search input -->
+                            </div>
                             <div class="header-button ms-20px d-none d-xl-inline-block">
                                 <a href="contact.html" class="btn btn-rounded btn-transparent-light-gray border-1 btn-medium btn-switch-text text-transform-none">
                                     <span>
@@ -66,6 +95,7 @@
                     </div>
                 </div>
             </nav>
+            <!-- end navigation -->
         </header>
         <!-- Header Image Section -->
         <section class="top-space-margin page-title-big-typography border-radius-6px lg-border-radius-0px p-0" data-parallax-background-ratio="0.5" style="background-image: url(https://via.placeholder.com/1920x1080)">
@@ -90,51 +120,6 @@
             <div class="container">
                 <div class="row">
                     <!-- Sidebar -->
-                    <div class="col-lg-4 pe-5 order-2 order-lg-1 lg-pe-3 md-pe-15px">
-                        <div class="bg-solitude-blue border-radius-6px p-45px lg-p-30px mb-25px">
-                            <span class="fs-19 alt-font text-dark-gray fw-700 mb-20px d-inline-block">Services</span>
-                            <ul class="p-0 m-0 list-style-02 fw-500">
-                                <li class="pb-10px mb-10px border-bottom border-color-transparent-dark"><a href="service-details-imported-gypsum.html" class="text-dark-gray text-dark-gray-hover">Imported Gypsum</a><i class="feather icon-feather-arrow-right ms-auto"></i></li>
-                                <li class="pb-10px mb-10px border-bottom border-color-transparent-dark"><a href="service-details-calcite-powder.html">Calcite Powder</a><i class="feather icon-feather-arrow-right ms-auto"></i></li>
-                                <li class="pb-10px mb-10px border-bottom border-color-transparent-dark"><a href="service-details-soap-stone.html">Soap Stone (Talc) Powder</a><i class="feather icon-feather-arrow-right ms-auto"></i></li>
-                                <li class="pb-10px mb-10px border-bottom border-color-transparent-dark"><a href="service-details-agri-combustible-waste.html">Agri Combustible Waste</a><i class="feather icon-feather-arrow-right ms-auto"></i></li>
-                                <li><a href="service-details-high-gcv-imported-coal.html">High GCV Imported Coal</a><i class="feather icon-feather-arrow-right ms-auto"></i></li>
-                            </ul>
-                        </div>
-                        <div class="bg-dark-gray border-radius-6px ps-35px pb-25px pt-25px mb-25px">
-                            <div class="feature-box feature-box-left-icon-middle">
-                                <div class="feature-box-icon feature-box-icon-rounded w-65px h-65px lg-w-50px lg-h-50px me-20px lg-me-15px rounded-circle bg-base-color rounded-box">
-                                    <i class="bi bi-telephone-outbound icon-extra-medium text-white"></i>
-                                </div>
-                                <div class="feature-box-content last-paragraph-no-margin">
-                                    <span class="lh-22 mb-10px d-block text-white opacity-6 fw-300">Customer care?</span>
-                                    <span class="text-white fs-20 fw-500 lh-22 d-block"><a href="tel:+12345678910">+1 234 567 8910</a></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bg-solitude-blue border-radius-6px p-40px lg-p-30px">
-                            <span class="fs-19 alt-font text-dark-gray fw-700 mb-25px sm-mb-20px d-inline-block">Get a free consultation?</span>
-                            <div class="contact-form-style-01 mt-0">
-                                <form action="email-templates/contact-form.php" method="post">
-                                    <div class="position-relative form-group mb-20px">
-                                        <span class="form-icon"><i class="bi bi-emoji-smile"></i></span>
-                                        <input type="text" name="name" class="form-control border-white fs-16 box-shadow-large required" placeholder="Your name*" />
-                                    </div>
-                                    <div class="position-relative form-group mb-20px">
-                                        <span class="form-icon"><i class="bi bi-envelope"></i></span>
-                                        <input type="email" name="email" class="form-control border-white fs-16 box-shadow-large required" placeholder="Your email address*" />
-                                    </div>
-                                    <div class="position-relative form-group form-textarea">
-                                        <span class="form-icon"><i class="bi bi-chat-square-dots"></i></span>
-                                        <textarea placeholder="Your message" name="comment" class="form-control border-white fs-16 box-shadow-large" rows="3"></textarea>
-                                        <input type="hidden" name="redirect" value="">
-                                        <button class="btn btn-small btn-round-edge btn-base-color btn-box-shadow mt-20px submit w-100 text-transform-none" type="submit">Send message</button>
-                                        <div class="form-results mt-20px d-none"></div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
                     <!-- Main Service Content -->
                     <div class="col-lg-8 order-1 order-lg-2 md-mb-50px">
                         <h4 class="text-dark-gray fw-700 alt-font mb-20px d-block">Reliable Imported Gypsum Supply</h4>
@@ -152,17 +137,93 @@
         </section>
         <!-- Footer (same as above) -->
         <footer class="p-0 fs-16 border-top border-color-extra-medium-gray">
-            <div class="container">
-                <div class="row justify-content-center pt-6">
-                    <div class="col-12 text-center">
-                        <p class="lh-30 w-90 mx-auto">EnerG Solutions &copy; 2024. Reliable energy for your business. <a href="contact.html" class="text-dark-gray fw-600 text-decoration-line-bottom">Contact Us</a></p>
-                        <ul class="footer-navbar sm-lh-normal d-inline-block">
-                            <li><a href="privacy.html" class="nav-link">Privacy policy</a></li>
-                            <li><a href="terms.html" class="nav-link">Terms and conditions</a></li>
+            <div class="container"> 
+                <div class="row justify-content-center pt-6 sm-pt-40px">
+                    <!-- start footer column -->
+                    <div class="col-6 col-xl-3 col-lg-12 col-sm-6 last-paragraph-no-margin text-xl-start text-lg-center order-sm-1 lg-mb-50px sm-mb-30px">
+                        <a href="index.html" class="footer-logo mb-15px d-inline-block"><img src="images/energ_logo.png" data-at2x="images/energ_logo.png" alt="EnerG Solutions"></a>
+                        <p class="lh-30 w-90 xl-w-100 mx-lg-auto mx-xl-0">Fuelling Growth | Fuelling Sustainability</p>
+                        <div class="elements-social social-icon-style-02 mt-20px xs-mt-15px">
+                            <ul class="medium-icon dark">
+                                <li class="my-0"><a class="facebook" href="https://www.facebook.com/energsol" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li class="my-0"><a class="linkedin" href="https://www.linkedin.com/company/energsol" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li class="my-0"><a class="twitter" href="https://twitter.com/energsol" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li class="my-0"><a class="instagram" href="https://www.instagram.com/energsol" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- end footer column -->
+                    <!-- start footer column -->
+                    <div class="col-6 col-xl-3 col-lg-12 col-sm-6 last-paragraph-no-margin text-xl-start text-lg-center lg-mb-50px sm-mb-30px">
+                        <h6 class="footer-title text-dark-gray fw-600 mb-20px">Contact Info</h6>
+                        <ul class="footer-list">
+                            <li class="mb-10px">
+                                <i class="feather icon-feather-map-pin me-2"></i>
+                                <span>#4C, White Waters, Timber Lake Colony, Khajaguda, Hyderabad – 81, Telangana</span>
+                            </li>
+                            <li class="mb-10px">
+                                <i class="feather icon-feather-phone me-2"></i>
+                                <span>+91 97048 11818 | +91 70136 82862</span>
+                            </li>
+                            <li class="mb-10px">
+                                <i class="feather icon-feather-mail me-2"></i>
+                                <span>business@energsol.in</span>
+                            </li>
+                            <li>
+                                <i class="feather icon-feather-globe me-2"></i>
+                                <span>energsol.in</span>
+                            </li>
                         </ul>
                     </div>
+                    <!-- end footer column -->
+                    <!-- start footer column -->
+                    <div class="col-6 col-xl-3 col-lg-12 col-sm-6 last-paragraph-no-margin text-xl-start text-lg-center lg-mb-50px sm-mb-30px">
+                        <h6 class="footer-title text-dark-gray fw-600 mb-20px">Quick Links</h6>
+                        <ul class="footer-list">
+                            <li class="mb-10px"><a href="about.html">About Us</a></li>
+                            <li class="mb-10px"><a href="service-details-biodiesel-b20.html">Products</a></li>
+                            <li class="mb-10px"><a href="#">Industries We Serve</a></li>
+                            <li class="mb-10px"><a href="#">Our Clients</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- end footer column -->
+                    <!-- start footer column -->
+                    <div class="col-6 col-xl-3 col-lg-12 col-sm-6 last-paragraph-no-margin text-xl-start text-lg-center">
+                        <h6 class="footer-title text-dark-gray fw-600 mb-20px">Newsletter</h6>
+                        <p class="w-85 xl-w-100">Subscribe to our newsletter for the latest updates and offers.</p>
+                        <form class="newsletter-form" action="https://api.web3forms.com/submit" method="post">
+                            <input type="hidden" name="access_key" value="31fce5d8-025c-4d41-a36b-a61d9b4ec9da">
+                            <input type="hidden" name="name" value="Newsletter">
+                            <input type="hidden" name="message" value="Subscribed to our newsletter for the latest updates and offers.">
+                            <input type="email" name="email" placeholder="Enter your email" required>
+                            <button type="submit" class="btn btn-dark-gray btn-small">Subscribe</button>
+                        </form>
+                    </div>
+                    <!-- end footer column -->
                 </div>
-            </div>
+                <div class="row justify-content-center align-items-center pt-2">
+                    <!-- start divider -->
+                    <div class="col-12">
+                        <div class="divider-style-03 divider-style-03-01 border-color-transparent-white-light"></div>
+                    </div>
+                    <!-- end divider -->
+                    <!-- start copyright -->
+                    <div class="col-lg-5 pt-35px pb-35px md-pt-0 order-2 order-lg-1 text-center text-lg-start last-paragraph-no-margin">
+                        <p>&copy; 2025 EnerG Solutions (P) Limited. All Rights Reserved.</p>
+                    </div>
+                    <!-- end copyright -->
+                    <!-- start footer menu -->
+                    <div class="col-lg-7 pt-35px pb-35px md-pt-25px md-pb-5px order-1 order-lg-2 text-center text-lg-end">
+                        <ul class="footer-navbar sm-lh-normal"> 
+                            <li><a href="privacy-policy.html" class="nav-link">Privacy Policy</a></li>
+                            <li><a href="terms-conditions.html" class="nav-link">Terms & Conditions</a></li>
+                            <li><a href="sitemap.html" class="nav-link">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <!-- end footer menu -->
+                </div>
+            </div> 
         </footer>
     </div>
     <!-- JS -->
